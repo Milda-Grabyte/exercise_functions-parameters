@@ -2,11 +2,11 @@
 
 //Write potato x 10
 
-function ten(word) {
-  console.log(word.repeat(10));
+function ten() {
+  console.log("patata ".repeat(10));
 }
 
-ten("patata ");
+ten();
 
 // function repeatStringNumTimes(string, times) {
 //   let repeatedString = "";
