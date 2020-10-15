@@ -29,3 +29,21 @@ function writeThis(word, times) {
 writeThis('Patata ', 10);
 writeThis('Aguacate ', 7);
 writeThis('Pizza ', 50);
+
+// PHASE 4
+
+function getRandomNumber(max) {
+  return Math.ceil(Math.random() * max);
+}
+
+function writeThis(word, times) {
+  console.log(word.repeat(times));
+}
+
+let randomNumber = getRandomNumber(10)
+
+writeThis('Patata ', randomNumber);
+writeThis('Aguacate ', randomNumber);
+writeThis('Pizza ', randomNumber);
+
+console.log(randomNumber);
