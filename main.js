@@ -47,3 +47,35 @@ writeThis('Aguacate ', randomNumber);
 writeThis('Pizza ', randomNumber);
 
 console.log(randomNumber);
+
+// PHASE 5
+
+const myWordList =  [
+  {
+    text: 'Pencil',
+    total: 6
+  },
+  {
+    text: 'Thermo',
+    total: 2
+  },
+  {
+    text: 'TV',
+    total: 8
+  },
+  {
+    text: 'Phone',
+    total: 4
+  }
+];
+
+function writeMyArray(word, times) {
+  console.log(word.repeat(times));
+}
+
+for (let element of myWordList) {
+  let word = element.text;
+  let times = element.total;
+  console.log(element, word, times)
+  writeMyArray(word, times);
+}
